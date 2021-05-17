@@ -1,13 +1,30 @@
 body {
   background-color: white;
 }
-/* css a,
-a:visited,
-a:hover,
-a:active {
-  color: #70757a;
-} */
+p.center {
+  text-align: center;
+}
 
-.center{
+footer.bottom-fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+  footer.p:last-of-type{
+    text-align: justify;
+  }
+
+#google-image {
+  display:block;
   margin: 0 auto;
+  height: 92px;
+  width: auto;
+}
+header {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+#google-image{
+  margin: 0px auto;
 }
