@@ -15,7 +15,10 @@ nav {
   /* height: 20px; */
 }   
 
-
+#ram-logo{
+  border-radius: 50%;
+  /* background-color: green; */
+}
 
 a{
   text-decoration: none;
@@ -45,6 +48,7 @@ a:hover{
   /* background-color: gray ; */
   justify-content: center;
   align-items: flex-end;
+  
 }
 
 .search-box input{
@@ -52,7 +56,7 @@ a:hover{
   height: 44px;
   padding: 5px 8px 0px 14px;
   border-radius: 30px;
-  margin: 
+  outline: none;
 }
 
 .buttons{
@@ -61,6 +65,7 @@ a:hover{
   justify-content: center;
   /* background-color: hotpink; */
   margin-top: 25px;
+  outline: none;
 }
 .buttons button{
   display: flex;
@@ -69,6 +74,7 @@ a:hover{
   padding: 0px 16px;
   background-color: #f8f9fa;
   color: #3c4043;
+  
 }
 
 .googleInLang{
