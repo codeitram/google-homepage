@@ -3,6 +3,7 @@ body {
 }
 p.center {
   text-align: center;
+  padding-top: 20px;
 }
 
 footer.bottom-fixed {
@@ -10,21 +11,29 @@ footer.bottom-fixed {
   bottom: 0px;
   left: 0px;
 }
-  footer.p:last-of-type{
-    text-align: justify;
-  }
+.bottom-fixed > p:last-of-type {
+  text-align: justify;
+}
 
 #google-image {
-  display:block;
+  display: block;
   margin: 0 auto;
   height: 92px;
   width: auto;
+  padding-top: 80px;
 }
 header {
   position: fixed;
   top: 0px;
   right: 0px;
 }
-#google-image{
+.search-box {
+  margin: auto;
+  width: 500px;
+}
+
+.button {
   margin: 0px auto;
+  width: 25%;
+  padding-top: 20px;
 }
