@@ -39,10 +39,12 @@ a:hover{
   
 }
 #google-image img{
-  height: 100px;  
+  height: 90px;  
 }
 
-.search-box{
+
+
+.search-box-field{
   display: flex;
   height: 60px;
   /* background-color: gray ; */
@@ -51,12 +53,13 @@ a:hover{
   
 }
 
-.search-box input{
+.search-box-field input{
   width: 582px;
   height: 44px;
   padding: 5px 8px 0px 14px;
   border-radius: 30px;
   outline: none;
+  border: .1px solid grey;
 }
 
 .buttons{
@@ -66,6 +69,7 @@ a:hover{
   /* background-color: hotpink; */
   margin-top: 25px;
   outline: none;
+  
 }
 .buttons button{
   display: flex;
@@ -74,6 +78,7 @@ a:hover{
   padding: 0px 16px;
   background-color: #f8f9fa;
   color: #3c4043;
+  border: .1px solid grey;
   
 }
 
