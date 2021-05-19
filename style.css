@@ -1,39 +1,131 @@
-body {
-  background-color: white;
-}
-p.center {
-  text-align: center;
-  padding-top: 20px;
+
+nav {
+  display: flex;
+  /* background-color: aliceblue; */
+  height: 60px;
+  justify-content: flex-end;
+  align-items: center ;
+  
 }
 
-footer.bottom-fixed {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-}
-.bottom-fixed > p:last-of-type {
-  text-align: justify;
+.nav-dec{
+  display: flex;
+  /* background-color: red; */
+  margin-right: 30px;
+  /* height: 20px; */
+}   
+
+
+
+a{
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
 }
 
-#google-image {
-  display: block;
-  margin: 0 auto;
-  height: 92px;
-  width: auto;
-  padding-top: 80px;
-}
-header {
-  position: fixed;
-  top: 0px;
-  right: 0px;
-}
-.search-box {
-  margin: auto;
-  width: 500px;
+a:hover{
+  text-decoration: underline;
+  
 }
 
-.button {
-  margin: 0px auto;
-  width: 25%;
-  padding-top: 20px;
+#google-image{
+  display: flex;
+  height: 130px;
+  /* background-color: blueviolet; */
+  justify-content: center;
+  align-items: center;
+  
+}
+#google-image img{
+  height: 100px;  
+}
+
+.search-box{
+  display: flex;
+  height: 60px;
+  /* background-color: gray ; */
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.search-box input{
+  width: 582px;
+  height: 44px;
+  padding: 5px 8px 0px 14px;
+  border-radius: 30px;
+  margin: 
+}
+
+.buttons{
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  /* background-color: hotpink; */
+  margin-top: 25px;
+}
+.buttons button{
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  padding: 0px 16px;
+  background-color: #f8f9fa;
+  color: #3c4043;
+}
+
+.googleInLang{
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.googleInLang p a{
+ color: blue;
+ margin-right: 8px;
+}
+.googleInLang p a:first-child{
+  margin-left: 8px;
+}
+
+.country{
+  display: flex;
+  height: 50px;
+  background-color: #f2f2f2;
+  align-items: center;
+  margin-top: 192px;
+  border-bottom: 1px rgb(218, 220, 224) solid;
+}
+
+.bottom-area{
+  display: flex;
+  height: 50px;
+  background-color: #f2f2f2;
+  align-items: center;
+
+}
+
+.country p{
+  color: rgba(0,0,0,.54);
+  margin-left: 25px;
+  font-weight:100;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  /* background-color: ; */
+  
+}
+.bottom-area p a {
+  color: rgba(0,0,0,.54);
+  margin-right: 20px;
+  font-weight:100;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+
+}
+
+.bottom-area p a:nth-of-type(1){
+  margin-left: 30px
+}
+
+.bottom-area p a:nth-of-type(5){
+  margin-left: 630px
 }
